@@ -4,5 +4,7 @@ public class GitFile2 {
 
         //git add .  -- means it will add all files
         //git add scr/test/java/... -- will add this specific Class
+        //git commit -m " Meaning full message" -- will save your project in the system and you can always
+        //return to this stage of your Project even if you've done a lot of implementations
     }
 }
