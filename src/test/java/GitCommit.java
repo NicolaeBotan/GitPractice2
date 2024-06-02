@@ -10,6 +10,8 @@ public class GitCommit {
         String word = scanner.nextLine();
         StringBuilder reversedWord = new StringBuilder();
         //here we created a StringBuilder to easier attach each character to the new reversedWord
+        //git stash -- take all your local changes that are overwritten with changes on GitHub and
+        //put them on the side, in a git local stashing area
 
         for (int i = word.length() - 1; i >= 0; i--) {
             reversedWord.append(word.charAt(i));
