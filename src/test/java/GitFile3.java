@@ -6,6 +6,8 @@ public class GitFile3 {
         git remote add origin https://github.com/NicolaeBotan/GitPractice2.git -- to make the connection
         -- between your link GitHub repository and your IntelliJ Project
         git push https://github.com/NicolaeBotan/GitPractice2.git -- when you push the first time
+        git push --set-upstream origin master -- to push
+
 
          */
     }
